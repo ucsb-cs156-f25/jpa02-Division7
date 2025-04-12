@@ -26,15 +26,18 @@ public class DeveloperTest {
         assertEquals("Yue C.", Developer.getName());
     }
 
+    @Test
     public void checkGithubId() {
         assertEquals("yuecao365", Developer.getGithubId());
     }
 
+    @Test
     public void testGetTeamNumber() {
         Team team = Developer.getTeam();
         assertEquals("s25-15", team.getName());
     }
 
+    @Test
     public void testGetTeamMembers() {
         Team team = Developer.getTeam();
         List<String> members = team.getMembers();
@@ -47,7 +50,6 @@ public class DeveloperTest {
         assertTrue(members.contains("Tyler"));
     }
 
-    // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
-    // 100% mutation coverage (all mutants timed out or killed)
+    
 
 }
