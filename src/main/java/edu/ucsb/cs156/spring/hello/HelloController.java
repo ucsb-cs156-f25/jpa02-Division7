@@ -19,7 +19,7 @@ public class HelloController {
     @GetMapping("/")
     public String index() {
         return """
-                <h1>Greetings from yuecao365!</h1>
+                <h1>Greetings from Spring Boot!</h1>
                 <p>This is a simple example of a Spring Boot application.</p>
                 <p><a href="/info">Developer Info</a></p>
                 """;

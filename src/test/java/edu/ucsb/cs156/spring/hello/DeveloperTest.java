@@ -23,18 +23,18 @@ public class DeveloperTest {
 
     @Test
     public void getName_returns_correct_name() {
-        assertEquals("Yue C.", Developer.getName());
+        assertEquals("Daniel J", Developer.getName());
     }
 
     @Test
     public void checkGithubId() {
-        assertEquals("yuecao365", Developer.getGithubId());
+        assertEquals("Division7", Developer.getGithubId());
     }
 
     @Test
     public void testGetTeamNumber() {
         Team team = Developer.getTeam();
-        assertEquals("s25-15", team.getName());
+        assertEquals("f25-00", team.getName());
     }
 
     @Test
@@ -42,12 +42,12 @@ public class DeveloperTest {
         Team team = Developer.getTeam();
         List<String> members = team.getMembers();
 
-        assertTrue(members.contains("Yue C."));
-        assertTrue(members.contains("Bryce"));
-        assertTrue(members.contains("Lucas"));
-        assertTrue(members.contains("Perry"));
-        assertTrue(members.contains("David"));
-        assertTrue(members.contains("Tyler"));
+        assertTrue(members.contains("Daniel"));
+        assertTrue(members.contains("Kate"));
+        assertTrue(members.contains("Divy"));
+        assertTrue(members.contains("Derek"));
+        assertTrue(members.contains("Sanjay"));
+        assertTrue(members.contains("Samuel"));
     }
 
     
