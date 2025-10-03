@@ -2,7 +2,7 @@
 
 Repo: https://github.com/ucsb-cs156-s25/jpa02-yuecao365.git
 
-Deployed at: https://jpa02-yuecao.dokku-15.cs.ucsb.edu
+Deployed at: https://jpa02-bennyyyyy.dokku-00.cs.ucsb.edu/
 
 
 # About this repo
