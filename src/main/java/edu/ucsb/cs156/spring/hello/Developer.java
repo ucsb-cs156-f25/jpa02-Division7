@@ -43,7 +43,7 @@ public class Developer {
         Team team = new Team("f25-00");
         team.addMember("Daniel");
         team.addMember("Kate");
-        team.addMember("Divy");
+        team.addMember("Divyani");
         team.addMember("Sanjay");
         team.addMember("Samuel");
         team.addMember("Derek");

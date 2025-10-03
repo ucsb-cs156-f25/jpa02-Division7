@@ -44,7 +44,7 @@ public class DeveloperTest {
 
         assertTrue(members.contains("Daniel"));
         assertTrue(members.contains("Kate"));
-        assertTrue(members.contains("Divy"));
+        assertTrue(members.contains("Divyani"));
         assertTrue(members.contains("Derek"));
         assertTrue(members.contains("Sanjay"));
         assertTrue(members.contains("Samuel"));
