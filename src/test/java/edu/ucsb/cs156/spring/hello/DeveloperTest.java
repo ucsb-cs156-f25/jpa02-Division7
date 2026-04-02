@@ -34,7 +34,7 @@ public class DeveloperTest {
     @Test
     public void testGetTeamNumber() {
         Team team = Developer.getTeam();
-        assertEquals("f25-00", team.getName());
+        assertEquals("s26-staff", team.getName());
     }
 
     @Test
@@ -43,11 +43,12 @@ public class DeveloperTest {
         List<String> members = team.getMembers();
 
         assertTrue(members.contains("Daniel"));
-        assertTrue(members.contains("Kate"));
+        assertTrue(members.contains("Kiril"));
         assertTrue(members.contains("Divyani"));
         assertTrue(members.contains("Derek"));
-        assertTrue(members.contains("Sanjay"));
-        assertTrue(members.contains("Samuel"));
+        assertTrue(members.contains("Phill"));
+        assertTrue(members.contains("Wendy"));
+        assertTrue(members.contains("Andrew"));
     }
 
     
